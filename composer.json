@@ -2,7 +2,7 @@
     "name": "webartisan/urlscanner",
     "description": "Scan URLs from a CSV file and report inaccessible URLs",
     "keywords": ["url", "scanner", "csv"],
-    "version": "v1.0.2",
+    "version": "v1.0",
     "license": "MIT",
     "authors": [
       {
