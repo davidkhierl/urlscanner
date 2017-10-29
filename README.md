@@ -1,5 +1,4 @@
-#URL Scanner
-
+# URL Scanner
 Scans URLs and return unresponsive link - This is an exercise from the book of [Modern PHP](http://shop.oreilly.com/product/0636920033868.do)
 
 Install
