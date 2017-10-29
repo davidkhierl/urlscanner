@@ -30,7 +30,7 @@ No testing yet.
 
 Contributing
 ------
-See [CONTRIBUTING.md](/blob/master/CONTRIBUTING.md)
+See [CONTRIBUTING.md](/CONTRIBUTING.md)
 
 Credits
 ------
@@ -39,4 +39,4 @@ Credits
 
 License
 ------
-The MIT License (MIT). Please see [License File](/blob/master/LICENSE) for more information.
+The MIT License (MIT). Please see [License File](/LICENSE) for more information.
