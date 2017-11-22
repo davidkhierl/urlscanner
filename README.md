@@ -1,6 +1,5 @@
 # URL Scanner
-Scans URLs and return unresponsive link - This is an exercise from the book of [Modern PHP](http://shop.oreilly.com/product/0636920033868.do)
-
+Scans URLs and return unresponsive link
 Install
 ------
 Via [Composer](https://getcomposer.org/)
@@ -23,7 +22,30 @@ $scanner = new Scanner($url);
 
 print_r($scanner->getInvalidUrls());
 ```
+Scanning CSV
+```php
+use Webartisan\Url\Scanner;
+use League\Csv\Reader;
 
+$urls = [];
+
+$csv = Reader::createFromPath($argv[1]);
+
+foreach ($csv as $url) {
+    array_push($urls, $url[0]);
+}
+
+$scanner = new Scanner($urls);
+
+$result = $scanner->getInvalidUrls();
+
+if (!empty($result)) {
+    print_r($scanner->getInvalidUrls());
+}
+else {
+    print("All url is working" . PHP_EOL);
+}
+```
 Testing
 ------
 No testing yet.
