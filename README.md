@@ -1,5 +1,6 @@
 # URL Scanner
-Scans URLs and return unresponsive link
+Scans URLs and return unresponsive link - This is an updated urlscanner base from the depreciated book of [Modern PHP](http://shop.oreilly.com/product/0636920033868.do)
+
 Install
 ------
 Via [Composer](https://getcomposer.org/)
